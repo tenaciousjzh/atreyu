@@ -1,14 +1,14 @@
-treyu?
-For those old enough to remember the [Neverending Story], this project name will make sense.
+# Why Atreyu?
+For those old enough to remember the [Neverending Story], this project name will make sense. Atreyu went on a mission with Falcor (the Luck Dragon).
 
 # Atreyu
-Atreyu is a project for Clojurians wanting to get in on the game with Falcor but hate the idea of writing middleware in Node.js. Don't get me wrong, Node is cool stuff but once you've tasted the Clojure sauce, it's tough to go back. While David Nolen builds out the killer Om next framework built on ideas like Falcor and Relay; Atreyu could be seen as a complimentary library to Falcor. 
+Atreyu is a project for Clojurians wanting to get in on the game with Falcor but hate the idea of writing middleware in Node.js. Don't get me wrong, Node is cool stuff but once you've tasted the Clojure sauce, it's tough to go back. While David Nolen builds out the killer Om next framework built on ideas like Falcor and Relay; Atreyu could be seen as a complimentary library to Falcor.
 
 Atreyu intends to support the following features:
-  - A Drop-In replacement for [falcor-express] that runs server-side on [http-kit]. 
+  - A Drop-In replacement for [falcor-express] that runs server-side on [http-kit].
   - Routers capable of processing JSON-Graph queries sent from the client and returning JSON-Graph models back.
   - Ability to connect to other services or a backend database (currently Neo4J) to retrieve JSON-Graph fragments.
-  
+
 ### Version
 0.0.1
 
@@ -17,7 +17,7 @@ Atreyu intends to support the following features:
 Atreyu uses open source tech liberally:
 * [Compojure] - Enhances compojure to support routes!
 * [http-kit] - awesome web-based text editor
-* [Clojure] - 
+* [Clojure] -
 
 
 ### Installation
@@ -97,7 +97,7 @@ Apache License 2.0
    [Neverending Story]: <http://www.imdb.com/title/tt0088323/>
    [falcor-express]: <https://github.com/Netflix/falcor-express>
    [http-kit]: <https://github.com/http-kit/http-kit>
-   
+
    [dill]: <https://github.com/joemccann/dillinger>
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
    [john gruber]: <http://daringfireball.net>
@@ -113,11 +113,8 @@ Apache License 2.0
    [express]: <http://expressjs.com>
    [AngularJS]: <http://angularjs.org>
    [Gulp]: <http://gulpjs.com>
-   
+
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
    [PlGh]:  <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
    [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
    [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-
-
-
